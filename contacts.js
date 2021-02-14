@@ -51,6 +51,7 @@ async function removeContact(contactId) {
         JSON.stringify(updatedContacts, "utf8")
       );
       console.log(`Contact with id ${contactId} was deleted`);
+      listContacts();
     }
   } catch (err) {
     console.log(err.message);
@@ -86,6 +87,7 @@ async function addContact(name, email, phone) {
       );
       console.log(`New contact ${name} was added succsessfully`);
     }
+    listContacts();
   } catch (err) {
     console.log(err.message);
   }
