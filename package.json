@@ -1,0 +1,27 @@
+{
+  "name": "goit-node-hw",
+  "version": "1.0.0",
+  "description": "Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valentyna-Chudik/goit-node-hw.git"
+  },
+  "author": "Valentyna Chudik <valentyna_chudik@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valentyna-Chudik/goit-node-hw/issues"
+  },
+  "homepage": "https://github.com/Valentyna-Chudik/goit-node-hw#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "shortid": "^2.2.16",
+    "yargs": "^16.2.0"
+  }
+}
